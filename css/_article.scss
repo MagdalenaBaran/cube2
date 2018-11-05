@@ -1,0 +1,53 @@
+section.article {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #e2e2e2;
+
+
+
+
+
+
+    article {
+        align-items: center;
+        justify-content: center;
+        background-color: #ffffff;
+        text-decoration: none;
+        font-size: 2.8rem;
+        margin-left: 5rem;
+        margin-right: 5rem;
+        width: 37rem;
+        font-family: 'raleway', sans-serif;
+        color: gray;
+        box-shadow: 10px 9px 68px -6px rgba(0, 0, 0, 0.59);
+
+
+        >h4 {
+            margin-inline-start: 30px;
+            margin-inline-end: 30px;
+            font-weight: 300;
+
+            >span {
+                font-family: 'fontello';
+                margin-top: 12px;
+                margin-right: 1rem;
+                font-size: 3rem;
+                color: #38c596;
+            }
+        }
+
+        >p {
+            margin-inline-start: 30px;
+            margin-inline-end: 30px;
+            font-size: 2rem;
+            font-weight: 300;
+        }
+
+    }
+
+    article.design {
+        margin-block-start: 9rem;
+    }
+
+}

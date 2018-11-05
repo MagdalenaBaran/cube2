@@ -1,0 +1,60 @@
+section.pudelka-fluid {
+display: flex;
+justify-content: center;
+align-items: center;
+background-color: #e2e2e2;
+
+
+
+div.pudelka {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #e2e2e2;
+    width: 100rem;
+    >div  {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30rem;
+        height: 50rem;
+
+        div.brown {
+            height: 23.5rem;
+            width: 30rem;
+            background-color: #E1A87B;
+        }
+        div.grey {
+            height: 23.5rem;
+            width: 30rem;
+            background-color: #A69DA0;
+        }
+    }
+
+    div.white {
+        height: 50rem;
+        width: 30rem;
+        background-color: rgb(170, 170, 170);
+    }
+    
+    div.pudelka2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        width: 30rem;
+        height: 50rem;
+
+        div.green {
+            height: 23.5rem;
+            width: 30rem;
+            background-color: #80c980;
+        }
+
+        div.dark {
+            height: 23.5rem;
+            width: 30rem;
+            background-color: #185818;
+        }
+    }
+}
+}

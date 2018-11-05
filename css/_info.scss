@@ -1,0 +1,11 @@
+div.info {
+    display: flex;
+
+    >article {
+        box-sizing: border-box;
+        width: 30%;
+        background-color: hsl(0, 7%, 92%);
+       box-shadow: 0px 30px 93px 38px rgba(199,199,199,1);
+        padding: 2rem;
+    }
+}

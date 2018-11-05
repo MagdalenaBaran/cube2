@@ -1,0 +1,34 @@
+section.button {
+background-color: #e2e2e2;
+    >a {
+        width: 36rem;
+        height: 10rem;
+        background-color: aliceblue;
+        display: inline-block;
+        text-decoration: none;
+        color: #000;
+        overflow: hidden;
+
+        >span {
+            font-size: 3rem;
+            display: block;
+            text-align: center;
+            line-height: 10rem;
+            transition: 0.3s linear;
+        }
+
+       
+
+        }
+   
+//  >a:hover span {
+//             transform: translateY(-10rem);
+//         } 
+
+        // >div.kuleczka {
+            // height: 10rem;
+            // width: 10rem;
+            // background-color: grey;
+            // border-radius: 50%;
+        // }
+     }

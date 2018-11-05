@@ -1,0 +1,33 @@
+section.button2 {
+display: flex;
+justify-content: center;
+background-color: #e2e2e2;
+
+div.button2 {
+    margin: 11rem 0 11rem 0;
+    >a {
+        display: inline-block;
+        width: 26rem;
+        height: 5rem;
+        background-color: rgb(76, 211, 216);
+        text-decoration: none;     
+        color: hsl(0, 0%, 100%);
+        overflow: hidden;
+
+
+        >span {
+            line-height: 5rem;
+            text-align: center;
+            display: block;
+            font-family: 'raleway', sans-serif;
+            font-size: 3rem;
+            transition: 0.3s linear;
+        }
+
+    }
+
+    >a:hover span {
+        transform: translateY(-5rem);
+    }
+}
+}
