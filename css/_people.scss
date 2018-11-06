@@ -3,7 +3,7 @@ div.notes2 {
     flex-direction: column;
     justify-content: center;
     font-family: 'raleway', sans-serif;
-    background-color: #c0c0c0;
+    background-color: hsl(0, 0%, 85%);
     padding-top: 8rem;
 
 
@@ -26,8 +26,10 @@ div.notes2 {
         display: flex;
         justify-content: space-around;
         align-items: center;
-        background-color: #c0c0c0;
+        background-color: hsl(0, 0%, 85%);
         width: 100rem;
+        font-style: italic;
+        font-weight: bold;
        
 
         div.all {
